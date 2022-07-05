@@ -18,24 +18,48 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="The new SUD Life Experience Zone, a convenient, never-seen-before world of insurance where you will find everything you need when it comes to securing your loved ones. A one stop shop for all your life insurance needs..">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="experiencezone">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="apple-mobile-web-app-title" content="Experience Zone">
+  <link rel="apple-touch-icon" href="icons/web_logo.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+<!--  <link rel="icon" type="image/png" href="favicon.png"/>-->
+  <link rel="icon" type="image/png" href="web_logo.png"/>
 
-  <title>experiencezone</title>
+  <title>Experience Zone</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+<!--  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>-->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script>
+
+    var firebaseConfig = {
+    apiKey: "AIzaSyCy8GlXof-O6-aqUis04cWFKyDGM9Y2GAU",
+    authDomain: "experiencezone-8a3a5.firebaseapp.com",
+    projectId: "experiencezone-8a3a5",
+    storageBucket: "experiencezone-8a3a5.appspot.com",
+    messagingSenderId: "802592535097",
+    appId: "1:802592535097:web:b1b711448c723bd671d3e8",
+    measurementId: "G-PPPBBQN85L"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
+
+  </script>
   <script>
     var serviceWorkerVersion = null;
     var scriptLoaded = false;

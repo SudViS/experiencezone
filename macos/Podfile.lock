@@ -1,0 +1,185 @@
+PODS:
+  - audioplayers (0.0.1):
+    - FlutterMacOS
+  - Firebase/Auth (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.15.0)
+  - Firebase/CoreOnly (8.15.0):
+    - FirebaseCore (= 8.15.0)
+  - Firebase/Database (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 8.15.0)
+  - Firebase/Messaging (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.15.0)
+  - Firebase/Storage (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 8.15.0)
+  - firebase_auth (3.3.19):
+    - Firebase/Auth (~> 8.15.0)
+    - Firebase/CoreOnly (~> 8.15.0)
+    - firebase_core
+    - FlutterMacOS
+  - firebase_core (1.17.1):
+    - Firebase/CoreOnly (~> 8.15.0)
+    - FlutterMacOS
+  - firebase_database (9.0.15):
+    - Firebase/CoreOnly (~> 8.15.0)
+    - Firebase/Database (~> 8.15.0)
+    - firebase_core
+    - FlutterMacOS
+  - firebase_messaging (10.0.9):
+    - Firebase/CoreOnly (~> 8.15.0)
+    - Firebase/Messaging (~> 8.15.0)
+    - firebase_core
+    - FlutterMacOS
+  - firebase_storage (10.2.17):
+    - Firebase/CoreOnly (~> 8.15.0)
+    - Firebase/Storage (~> 8.15.0)
+    - firebase_core
+    - FlutterMacOS
+  - FirebaseAuth (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.15.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseDatabase (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstallations (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseStorage (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FlutterMacOS (1.0.0)
+  - GoogleDataTransport (9.1.4):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.2)
+  - leveldb-library (1.22.1)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - path_provider_macos (0.0.1):
+    - FlutterMacOS
+  - PromisesObjC (2.1.0)
+  - shared_preferences_macos (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - audioplayers (from `Flutter/ephemeral/.symlinks/plugins/audioplayers/macos`)
+  - firebase_auth (from `Flutter/ephemeral/.symlinks/plugins/firebase_auth/macos`)
+  - firebase_core (from `Flutter/ephemeral/.symlinks/plugins/firebase_core/macos`)
+  - firebase_database (from `Flutter/ephemeral/.symlinks/plugins/firebase_database/macos`)
+  - firebase_messaging (from `Flutter/ephemeral/.symlinks/plugins/firebase_messaging/macos`)
+  - firebase_storage (from `Flutter/ephemeral/.symlinks/plugins/firebase_storage/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - path_provider_macos (from `Flutter/ephemeral/.symlinks/plugins/path_provider_macos/macos`)
+  - shared_preferences_macos (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences_macos/macos`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDatabase
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebaseStorage
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - leveldb-library
+    - nanopb
+    - PromisesObjC
+
+EXTERNAL SOURCES:
+  audioplayers:
+    :path: Flutter/ephemeral/.symlinks/plugins/audioplayers/macos
+  firebase_auth:
+    :path: Flutter/ephemeral/.symlinks/plugins/firebase_auth/macos
+  firebase_core:
+    :path: Flutter/ephemeral/.symlinks/plugins/firebase_core/macos
+  firebase_database:
+    :path: Flutter/ephemeral/.symlinks/plugins/firebase_database/macos
+  firebase_messaging:
+    :path: Flutter/ephemeral/.symlinks/plugins/firebase_messaging/macos
+  firebase_storage:
+    :path: Flutter/ephemeral/.symlinks/plugins/firebase_storage/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  path_provider_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_macos/macos
+  shared_preferences_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences_macos/macos
+
+SPEC CHECKSUMS:
+  audioplayers: 8b48e22684b6e0d9df143b2d1bbd61dca9dab6b4
+  Firebase: 5f8193dff4b5b7c5d5ef72ae54bb76c08e2b841d
+  firebase_auth: 5719d06eb4b1c19a3afa58e4dfcd8c7912754241
+  firebase_core: 7b87364e2d1eae70018a60698e89e7d6f5320bad
+  firebase_database: 315003c298d4dc32b4bd8eb06c99a3efd959cd1b
+  firebase_messaging: 45ea693dc2743680aad9bcbe2c54667634303369
+  firebase_storage: 547c1e1158f762fd1f122baab025aeae9fa56772
+  FirebaseAuth: 3e73bf8abf4fbb40f8b421f361f4cc48ee57388c
+  FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseDatabase: f567afd233e54a303d84423207736590a6feb419
+  FirebaseInstallations: 40bd9054049b2eae9a2c38ef1c3dd213df3605cd
+  FirebaseMessaging: 5e5118a2383b3531e730d974680954c679ca0a13
+  FirebaseStorage: 8019af461599b2c3bc61c6a5dbdfa3d2de66a4d9
+  FlutterMacOS: 57701585bf7de1b3fc2bb61f6378d73bbdea8424
+  GoogleDataTransport: 5fffe35792f8b96ec8d6775f5eccd83c998d5a3b
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  path_provider_macos: 160cab0d5461f0c0e02995469a98f24bdb9a3f1f
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  shared_preferences_macos: a64dc611287ed6cbe28fd1297898db1336975727
+
+PODFILE CHECKSUM: c7161fcf45d4fd9025dc0f48a76d6e64e52f8176
+
+COCOAPODS: 1.11.3

@@ -1,23 +1,48 @@
 {
   "images" : [
     {
+      "filename" : "Slpash@1x.png",
       "idiom" : "universal",
-      "filename" : "LaunchImage.png",
       "scale" : "1x"
     },
     {
+      "filename" : "Slpash@2x.png",
       "idiom" : "universal",
-      "filename" : "LaunchImage@2x.png",
       "scale" : "2x"
     },
     {
+      "filename" : "Slpash@3x.png",
       "idiom" : "universal",
-      "filename" : "LaunchImage@3x.png",
       "scale" : "3x"
+    },
+    {
+      "filename" : "LaunchImage.png",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "EX Mob Bag@2x.png",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "EX Mob Bag@3x.png",
+      "idiom" : "iphone",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "Slpash.jpg",
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Slpash@2x.jpg",
+      "idiom" : "ipad",
+      "scale" : "2x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
